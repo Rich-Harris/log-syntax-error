@@ -8,7 +8,7 @@
   "jsnext:main": "./src/index.js",
   "scripts": {
     "test": "mocha",
-    "build": "set -e; npm run test; mkdir -p dist; rf -rf dist/*; cp tmp/index.js dist/index.js"
+    "build": "set -e; npm run test; mkdir -p dist; rm -rf dist/*; cp tmp/index.js dist/index.js"
   },
   "dependencies": {
     "chalk": "^1.0.0"

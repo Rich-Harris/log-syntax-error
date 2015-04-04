@@ -15,7 +15,7 @@ function pad(num, digits) {
 	return num;
 }
 function logSyntaxError(code, line, column, options) {
-	var buffer = 'buffer' in options ? options.buffer : 2;
+	var buffer = options && 'buffer' in options ? options.buffer : 2;
 
 	line -= 1; // zero base
 
