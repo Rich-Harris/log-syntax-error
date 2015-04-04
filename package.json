@@ -2,7 +2,7 @@
   "name": "log-syntax-error",
   "description": "Highlight syntax error locations",
   "author": "Rich Harris",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "main": "./dist/index.js",
   "jsnext:main": "./src/index.js",
