@@ -1,0 +1,23 @@
+{
+  "name": "log-syntax-error",
+  "description": "Highlight syntax error locations",
+  "author": "Rich Harris",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "jsnext:main": "./src/index.js",
+  "scripts": {
+    "test": "mocha",
+    "build": "set -e; npm run test; mkdir -p dist; rf -rf dist/*; cp tmp/index.js dist/index.js"
+  },
+  "dependencies": {
+    "chalk": "^1.0.0"
+  },
+  "devDependencies": {
+    "esperanto": "^0.6.26",
+    "gobble": "^0.7.11",
+    "gobble-babel": "^5.0.0",
+    "gobble-esperanto": "^0.2.4",
+    "mocha": "^2.2.1"
+  }
+}
