@@ -12,6 +12,7 @@ npm install log-syntax-error
 
 ```js
 var block = logSyntaxError( code, line, column, options );
+console.error( block );
 ```
 
 * `code` is some source code
